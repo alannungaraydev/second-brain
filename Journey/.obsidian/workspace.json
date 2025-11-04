@@ -1,0 +1,192 @@
+{
+  "main": {
+    "id": "0f9244b72e1dd936",
+    "type": "split",
+    "children": [
+      {
+        "id": "ff9b61875c6c6285",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a0733dc9ac567f2d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fullstack.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "aff5fd0a7f2bacda",
+    "type": "split",
+    "children": [
+      {
+        "id": "b949028191247936",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2a8304cbb73bb9f1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a4f71f2ba34e7218",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e4b5a6ed153d7aed",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "95dd69c749bdd56a",
+    "type": "split",
+    "children": [
+      {
+        "id": "d96b3c087271192e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4cb40e401bd092b2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Fullstack.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5340d92e18a60b76",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Fullstack.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7936e3b75e7050f7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "4cdb5b7f6e0ae08b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Fullstack.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false
+    }
+  },
+  "active": "a0733dc9ac567f2d",
+  "lastOpenFiles": [
+    "Negociacion Dia 2.md",
+    "Negociación y resolución de problemas..md",
+    "Spring Native.md",
+    "Courses/Platzi/Backend/Bases de Datos.md",
+    "Courses/Platzi/Como Aprender En linea.md",
+    "Courses/Platzi/Backend",
+    "Journal/2023-04-27 Establecimientos de metas.md",
+    "microservicios.md",
+    "Backend Systems.md",
+    "Backend Architecture Patterns and principles.md",
+    "Universidad/Semester 1/Computación  Cliente Servidor/Computación Cliente Servidor.md",
+    "Como aprender mejor.md",
+    "Fullstack.md",
+    "Monolith Mud  to clean Micro.md",
+    "Hello.md",
+    "Backend Developer.md",
+    "Journal/2023-04-30 Horario de actividades.md",
+    "Journal/2023-04-23.md",
+    "Doce reglas de code.md",
+    "Journal/Como leer un libro en un dia.md",
+    "AprendizAje.md",
+    "GNA-11089.md",
+    "Azure Dev Ops.md",
+    "Universidad/Semester 1/Computación  Cliente Servidor/Introducción a las aplicaciones web.md",
+    "Universidad/Semester 1/Direccion y planificacion de proyectos/Diciplina de dirección y gestión de proyectos..md",
+    "Software Enginering/Untitled 1.md",
+    "Assets/Pasted image 20230501114211.png",
+    "Assets/Pasted image 20230501102020.png",
+    "Universidad/Semester 1/Direccion y planificacion de proyectos/Temario.md",
+    "Courses/Udemy/Microservices",
+    "Courses/Udemy/Databases",
+    "Architecture/Domain Driven Design",
+    "Software Enginering/Frontend/SCSS",
+    "Software Enginering/Frontend/CSS",
+    "Software Enginering/Programing Languages/Python",
+    "Software Enginering/Programing Languages/Java",
+    "Software Enginering/Programing Languages/Typescript",
+    "Software Enginering/Programing Languages/Javascript",
+    "Assets/hexagon_layer.png"
+  ]
+}
