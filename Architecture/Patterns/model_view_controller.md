@@ -1,36 +1,29 @@
+The Model-View-Controller system is a pattern where we can organize our software into 3 categories:
 
-El sistema de model view controller es un patron en donde podemos organizar nuestro software en donde tenemos 3 categorias 
+**Model**: Responsible for presenting information and the business logic of the application. It handles data management, database interaction, and provides an interface to access and modify stored data.
 
-Modelo quien es responsable de presentar la informacion y la logica de negocio de la aplicacion. Es el encargado de manejar los datos y la interaccion de la base de datos y proporciona una interfaz para acceder y modificar los datos almacenados 
+**View**: Responsible for presenting information to the user in a clear and organized manner.
 
-**La vista** es la responsable de presentar la informacion al usuario de manera clara y organizada. 
-Me encantaría que pudiesemos empezar con una nueva manera de escribir 
-primero seria escribiendo con todos los dedos correctamente posisionados en el teclado y mirandolo lo menos posible 
+**Controller**: Acts as an intermediary between the model and the view, managing communication and coordinating actions. It processes input, interacts with the model to make changes, and updates the view as needed.
 
-Probablemente tengas muchos errores en un principio debido a malos habitos que hay que comenzar a evitar 
-
-
-Controlador: Actúa como intermediario entre el modelo y la vista, gestionando la comunicacion y coordinando las acciones. Procesa la entrada, interactúa con el modelo para realizar cambios y actualiza la vista según sea necesario.
-
-El patrón MVC promueve la separación de las responsabilidades y facilita la mantenibilidad, escalabilidaday reutilizacion del código en aplicaciónes de software.
+The MVC pattern promotes separation of responsibilities and facilitates maintainability, scalability, and code reusability in software applications.
 
 
 
-## MVC a Clean MVC 
+## MVC to Clean MVC
 
-La arquitectura limpia, también conocida como arquitectura hexagonal, capas concéntricas o el enfoque de "cebolla", se basa en la idea de separar los aspectos más esenciales y de alto nivel de la lógica de negocio (las reglas del negocio) de los detalles menos esenciales y de bajo nivel (interfaz de usuario, bases de datos, frameworks, etc.).
+Clean architecture, also known as hexagonal architecture, concentric layers, or the "onion" approach, is based on the idea of separating the most essential and high-level aspects of business logic (business rules) from the less essential and low-level details (user interface, databases, frameworks, etc.).
 
-Podemos tomar el patrón MVC como punto de partida y adaptarlo a una arquitectura limpia de la siguiente manera:
+We can take the MVC pattern as a starting point and adapt it to a clean architecture as follows:
 
-1.  **Entidades (Núcleo de la arquitectura limpia)**: Estas serían equivalentes a los Modelos en MVC. Son las clases que contienen las reglas de negocio de alto nivel y no dependen de ninguna otra capa.
+1.  **Entities (Core of clean architecture)**: These would be equivalent to Models in MVC. They are the classes that contain high-level business rules and don't depend on any other layer.
     
-2.  **Casos de uso**: Aquí es donde se aplican las reglas de negocio de alto nivel sobre las entidades. En MVC, esto podría ser parte del trabajo que hace un Controlador, aunque en una arquitectura limpia, esta lógica se mantendría separada y pura, sin mezclarla con la lógica de la interfaz de usuario o la lógica de acceso a datos.
+2.  **Use Cases**: This is where high-level business rules are applied to the entities. In MVC, this could be part of what a Controller does, although in clean architecture, this logic would remain separate and pure, without mixing it with user interface logic or data access logic.
     
-3.  **Controladores y Presentadores**: Esta sería una ampliación del papel del Controlador en MVC. El Controlador maneja la entrada del usuario, la cual usa para interactuar con los Casos de Uso. Luego, el Presentador recibe los resultados de los Casos de Uso y los transforma en una forma adecuada para la Vista.
+3.  **Controllers and Presenters**: This would be an expansion of the Controller's role in MVC. The Controller handles user input, which it uses to interact with Use Cases. Then, the Presenter receives the results from Use Cases and transforms them into a form suitable for the View.
     
-4.  **Vista**: Similar a la Vista en MVC, este componente se encarga de presentar la información al usuario. Sin embargo, en una arquitectura limpia, la Vista sería aún más delgada y menos inteligente, con la mayoría de la lógica de presentación manejada por el Presentador.
+4.  **View**: Similar to the View in MVC, this component is responsible for presenting information to the user. However, in clean architecture, the View would be even thinner and less intelligent, with most of the presentation logic handled by the Presenter.
     
-5.  **Capa de infraestructura**: Esta capa no tiene un equivalente directo en MVC y maneja detalles de bajo nivel como acceso a bases de datos, redes, y otras operaciones que no se relacionan directamente con las reglas de negocio. En una arquitectura limpia, las dependencias siempre apuntan hacia adentro, lo que significa que las capas de nivel superior no dependen de esta capa de infraestructura.
-    
+5.  **Infrastructure Layer**: This layer has no direct equivalent in MVC and handles low-level details such as database access, networking, and other operations that don't directly relate to business rules. In clean architecture, dependencies always point inward, meaning that higher-level layers don't depend on this infrastructure layer.
 
-El objetivo de la arquitectura limpia es hacer que el sistema sea más mantenible, flexible y escalable, y menos dependiente de detalles específicos de la infraestructura, marcos de trabajo o interfaces de usuario.
+The goal of clean architecture is to make the system more maintainable, flexible, and scalable, and less dependent on specific infrastructure details, frameworks, or user interfaces.
