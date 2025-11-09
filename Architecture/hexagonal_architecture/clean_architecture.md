@@ -1,3 +1,0 @@
-The clean arquitecture refers to those structure of the software code an configurations where the busisness logic is separated from the infrastructure logic. 
-Imagine that you have a client who requires to create a register of people who get in and leaves a build to keep record of how many people get in to the build and how much time it remains. 
-So we decide to create a project with the trending framework 

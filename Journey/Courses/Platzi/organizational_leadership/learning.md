@@ -1,3 +1,3 @@
 
-## Objective
-To know and define appropriate techniques for continuous learning and information retention.
+## Objetivo
+Conocer y definir las técnicas adecuadas  para el aprendizaje continuo y la conservación de la información.
